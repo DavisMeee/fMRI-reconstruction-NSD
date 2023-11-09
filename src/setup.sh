@@ -8,7 +8,7 @@ conda create -n mindeye python=3.10.8 -y
 conda activate mindeye
 
 conda install numpy matplotlib tqdm scikit-image jupyterlab -y
-conda install -c conda-forge accelerate -y
+conda install -c conda-forge accelerate=0.23.0 -y
 
 pip install clip-retrieval webdataset clip pandas matplotlib ftfy regex kornia umap-learn
 pip install dalle2-pytorch
